@@ -7,11 +7,16 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  font-size: 40px;
+
+}
+
 .one_1 {
   color: orange;
 }
 
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -19,6 +24,7 @@ section {
 .helf-width {
   width: 50%;
   padding-left: 2%;
+
 }
 
 .helf-width img {
@@ -48,5 +54,31 @@ section {
   background-image: url(../images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+
+}
+
+.orange_color {
+  color: orange;
+
+}
+
+.Experience-itam {
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.experiance_area {
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+
 
 }
